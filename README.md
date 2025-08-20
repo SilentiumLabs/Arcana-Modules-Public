@@ -4,12 +4,12 @@ A collection of sanitized, safe utilities derived from the private Arcana Framew
 All modules run locally and demonstrate code quality without offensive functionality.
 
 ## Included Modules
-- `jwt-decoder/` – offline JWT parser
-- `cors-check-local/` – CORS header validator for localhost development servers
+- `jwt-decoder/` – Offline JWT parser that decodes header and payload safely, without validation or replay.
+- `cors-check-local/` – CORS header validator for localhost development servers, useful for testing application responses.
 
 ## Usage
-Modules are provided for educational use in authorized environments only.  
-They are not intended for offensive testing or use against systems without explicit permission.
+These modules are provided for educational use in authorized environments only.  
+They are designed to demonstrate implementation quality, not for offensive use against live targets.
 
 ## License
 MIT License
